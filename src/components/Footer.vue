@@ -82,6 +82,14 @@
           >UptimeRobot</a> 接口 | 检测频率 5 分钟
         </div>
         <div>
+          <a 
+            href="https://beian.miit.gov.cn" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="font-semibold hover:text-emerald-500 dark:hover:text-emerald-400 transition-colors"
+          >鄂ICP备2025153952号</a>
+        </div>
+        <div>
           Copyright © 2020 - {{ new Date().getFullYear() }} <a 
             :href="pkg.repository.url"
             target="_blank"
